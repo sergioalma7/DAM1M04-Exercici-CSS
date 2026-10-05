@@ -17,3 +17,26 @@ a {
 a:hover {
     font-weight: bolder;
 }
+.habilidades {
+    color:blue
+}
+#copy {
+    font-weight: bold;
+}
+#objetivos > li {
+    color:aquamarine
+
+}
+#objetivos:first-child {
+    font-size: larger;
+}
+#objetivos:last-child {
+    font-size: x-small;
+
+}
+#objetivos::before{
+    content: "👉 ";
+}
+#objetivos::after{
+    content: " ✔";
+}
